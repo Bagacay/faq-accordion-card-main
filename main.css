@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-width: 320px;
+}
+
+.container{
+    background: linear-gradient(#b067ea, #6462e7);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    background: white;
+    border-radius: 1em;
+    display: flex;
+    margin: o auto;
+    width: 50%;
+    position: relative;
+}
+
+.card-img{
+    flex: 1;
+    overflow: hidden;
+}
+
+.women{
+    background: url(./images/bg-pattern-desktop.svg);   
+    height: 50vh;
+    width: 100%;
+    object-fit: contain;
+    transform: translateX(-15%);
+    background-position: bottom +35% right ;
+}
+
+.box{
+    position: absolute;
+    left: 0;
+    top: 60%;
+    transform: translateX(-50%) translateY(-50%);
+}
+
+.card-text{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    padding: 1em;
+}
